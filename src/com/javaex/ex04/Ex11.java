@@ -73,13 +73,7 @@ public class Ex11 {
 				break;
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
+			
 		
 		System.out.println("종료");
 		
