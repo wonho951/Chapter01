@@ -32,7 +32,7 @@ public class Ex06 {
 		*/
 		
 		
-		//배열의 복사.
+		//배열의 복사.(실제값 복사)
 		int[] arrA = new int[3];
 		
 		arrA[0] = 3;
@@ -45,11 +45,12 @@ public class Ex06 {
 			arrB[i] = arrA[i];   // arrA의 값을 arrB에 대입.
 		}
 		
-		System.out.println("arrA[]");  //대입 과정이 끝난후 arrA[]라는 문자 출력
 		
+		System.out.println("arrA[]");  //대입 과정이 끝난후 arrA[]라는 문자 출력		
 		for (int i = 0; i < arrA.length; i++) {
 			System.out.println("i=" + arrA[i]); // arrA의 값인 3, 6, 9 출력
 		}
+		
 		
 		System.out.println("arrB[]");
 		for(int i = 0; i < arrB.length; i++) {
