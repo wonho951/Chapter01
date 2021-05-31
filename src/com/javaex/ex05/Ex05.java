@@ -18,13 +18,17 @@ public class Ex05 {
 		*/
 		
 		// 줄여서 쓰는 표기법.[] 안에 주의할것.
+	
 		int[] intArray = new int[] {11, 3, 78}; //방 갯수를 안줘도 됨. 값이 추가되거나 빠질때마다 알아서 적용됨.
 		
+		//int[] intArray = {11, 3, 78};  // 추천하지 않음. (간단하지만 헷갈릴수도 있기에 추천x, 익숙해지면 추천.)
 		
 		for (int i = 0; i<intArray.length; i++) {
 			System.out.println(intArray[i]);
 		}
 
+		
+		
 	}
 
 }
